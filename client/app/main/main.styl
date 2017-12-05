@@ -1,22 +1,107 @@
-.thing-form
-  margin 20px 0
+.carousel-caption
+    position: absolute
+    right: 15%
+    bottom: 35px
+    width: 60%
+    left: 15%
+    z-index: 10
+    padding-top: 20px
+    padding-bottom: 20px
+    color: #fff
+    text-align: left
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6)
 
-#banner
-  border-bottom none
-  margin-top -20px
 
-#banner h1
-  font-size 60px
-  letter-spacing -1px
-  line-height 1
-
-.hero-unit
-  background #4393B9
-  color #F5F5F5
-  padding 30px 15px
-  position relative
+.Carousel-padding
+  padding-left: 0
+  padding-right: 0
+.row
+  margin-left 0
+  margin-right 0
+.Intro
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  background-image: url("../../assets/images/main/balon2.jpg")
+  background-attachment fixed
+  &-container
+    margin: 80px 0
+  &-button
+    background-color: MainColor
+    color: white
+    text-transform: uppercase
+    font-size: 17px
+    border-radius: 0px
+    padding: 20px 30px
+  &-title
+    text-transform: uppercase
+    font-weight: bold
+    background: rgba(17, 24, 31, 0.9)
+    padding: 30px 30px
+    border-left: 1px solid MainColor
+    >p
+      margin: 0
+      color: white
+      line-height: 54px
+    >p:nth-child(1)
+      font-size: 26px
+    >p:nth-child(2)
+      font-size: 43px
+      color: MainColor
+    >p:nth-child(3)
+      font-size: 34px
+.carousel-inner > .item > img
+  width 100%
+  height 500px
+  padding: 0px 0px 0.5em
+.Btn-adsi
+  margin-bottom 1em
+.Slide-padding
+  margin 0
+.TRABAJANDO
+  font-size 100px
   text-align center
-  text-shadow 0 1px 0 rgba(0, 0, 0, 0.1)
+  color white
 
-.navbar-text
-  margin-left 15px
+@media screen and (min-width:768px){
+    .carousel-caption h3{font-size: 52px}
+    .carousel-caption p{font-size: 32px}
+    .carousel-caption{padding-bottom:160px}
+}
+
+.margin-carousel
+  margin-left 0
+  margin-right 0
+
+.padding-carousel
+  padding-left 0
+  padding-right 0
+
+.InfoContainer
+  padding-top 1em
+  background-color #fafafa
+
+.InfoContainer h4
+  margin 1 em 0
+  color #132E33
+  font-weight bold
+
+.imgInfo
+  width 100%
+  height 310px !important
+  border #003f84 solid 3px
+  border-radius 28px
+
+.Title-animated
+  font-size 60px
+  text-transform uppercase
+
+.carousel-caption h1:first-child
+  animation-delay 1s
+
+.carousel-caption h1:nth-child(2)
+  animation-delay 2s
+.carousel-caption
+  bottom 23% !important
+  width 75%
+  left 12.8%

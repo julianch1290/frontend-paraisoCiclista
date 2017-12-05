@@ -6,7 +6,8 @@ angular.module('paraisoCiclistaApp', [
   'ngResource',
   'ngSanitize',
   'ui.router',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'satellizer'
 ])
   .config(function($urlRouterProvider, $locationProvider) {
     $urlRouterProvider
